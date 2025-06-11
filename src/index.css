@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.capa-blanca {
+  background: rgba(255, 255, 255, 0.4); /* blanco translúcido */
+  backdrop-filter: blur(5px); /* desenfoca el fondo */
+  position: absolute; /* o fixed, según tu layout */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
