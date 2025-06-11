@@ -11,7 +11,7 @@ const Raees = () => {
       <div className="absolute top-[63px] left-0 right-0 bottom-0 bg-white/40 backdrop-sm z-0"></div>
 
       {/* Contenido centrado */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center text-blue-900 min-h-screen px-10 py-20">
+      <div className="relative z-10 flex flex-col items-center justify-center text-center text-[#001F87] min-h-screen px-10 py-20">
         <h1 className="text-3xl md:text-4xl font-bold mb-10">
           Residuos de Aparatos Eléctricos y Electrónicos
         </h1>

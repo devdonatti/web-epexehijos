@@ -39,7 +39,7 @@ const Contacto = () => {
     >
       <div className="absolute top-[63px] left-0 right-0 bottom-0 bg-white/40 backdrop-sm z-0"></div>
 
-      <div className="relative z-10 flex flex-col md:flex-row justify-center items-center min-h-screen px-10 py-20 gap-10 text-blue-900">
+      <div className="relative z-10 flex flex-col md:flex-row justify-center items-center min-h-screen px-10 py-20 gap-10 text-[#001F87]">
         {/* Formulario */}
         <form
           ref={form}
@@ -49,7 +49,7 @@ const Contacto = () => {
           <input
             name="user_name"
             placeholder="Nombre y apellido *"
-            className="w-full border-b border-blue-900 bg-transparent placeholder-blue-900 focus:outline-none"
+            className="w-full border-b border-blue-900 bg-transparent placeholder-blue-900 focus:outline-none text-[#001F87]"
             required
           />
           <input

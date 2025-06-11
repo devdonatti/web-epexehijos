@@ -44,7 +44,7 @@ const Navbar = () => {
 
       {/* Menú mobile */}
       {isOpen && (
-        <div className="lg:hidden text-center flex flex-col gap-4 px-6 pb-4">
+        <div className="lg:hidden bg-blue-800/10 backdrop-md text-center flex flex-col gap-4 px-6 pb-4">
           {links.map((link) => (
             <Link
               key={link.to}

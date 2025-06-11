@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const Nosotros = () => {
   return (
@@ -11,7 +12,7 @@ const Nosotros = () => {
       <div className="absolute top-[63px] left-0 right-0 bottom-0 bg-white/40 backdrop-sm z-0"></div>
 
       {/* Contenido sobre la capa */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-blue-900 min-h-screen px-10 py-20">
+      <div className="relative z-10 flex flex-col items-center justify-center text-[#001F87] min-h-screen px-10 py-20">
         <h1 className="text-3xl md:text-4xl font-bold mb-10 w-full text-left max-w-6xl">
           Nosotros
         </h1>
@@ -53,9 +54,11 @@ const Nosotros = () => {
           <h2 className="text-2xl font-bold mb-4">
             COMENZÁ A TRABAJAR CON NOSOTROS
           </h2>
-          <button className="bg-blue-900 text-white px-6 py-2 rounded hover:bg-blue-800 transition">
-            CONTACTO
-          </button>
+          <Link to="/contacto">
+            <button className="bg-[#001F87] text-white px-6 py-2 rounded hover:bg-blue-800 transition">
+              CONTACTO
+            </button>
+          </Link>
         </div>
       </div>
       <div className="relative z-10 mt-auto">
