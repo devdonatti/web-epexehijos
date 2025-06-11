@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import Footer from "../components/Footer";
 
 const Contacto = () => {
   const form = useRef();
@@ -167,6 +168,9 @@ const Contacto = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="relative z-10 mt-auto">
+        <Footer />
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 const Raees = () => {
   return (
@@ -51,6 +52,9 @@ const Raees = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="relative z-10 mt-auto">
+        <Footer />
       </div>
     </div>
   );

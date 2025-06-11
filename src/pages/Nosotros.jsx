@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 const Nosotros = () => {
   return (
@@ -56,6 +57,9 @@ const Nosotros = () => {
             CONTACTO
           </button>
         </div>
+      </div>
+      <div className="relative z-10 mt-auto">
+        <Footer />
       </div>
     </div>
   );

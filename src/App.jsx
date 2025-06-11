@@ -8,7 +8,6 @@ import Contacto from "./pages/Contacto";
 import Servicios from "./pages/Servicios";
 import Nosotros from "./pages/Nosotros";
 import Raees from "./pages/Raees";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
           <Route path="/servicio" element={<Servicios />} />
         </Routes>
       </div>
-      <Footer />
     </Router>
   );
 }

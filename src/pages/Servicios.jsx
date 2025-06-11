@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 const ServicioItem = ({ icon, title, children }) => (
   <div className="flex items-start gap-3 mb-6">
@@ -75,6 +76,9 @@ const Servicios = () => {
             obtener el resultado a pagar.
           </ServicioItem>
         </div>
+      </div>
+      <div className="relative z-10 mt-auto">
+        <Footer />
       </div>
     </div>
   );
