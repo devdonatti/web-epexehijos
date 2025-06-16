@@ -65,25 +65,42 @@ const Contacto = () => {
             required
           >
             <option value="">Provincia *</option>
-            <option>Buenos Aires</option>
+            <option>Buenos Aires (CABA)</option>
+            <option>Buenos Aires (Provincia)</option>
+            <option>Interior de Buenos Aires</option>
+            <option>Catamarca</option>
+            <option>Chaco</option>
+            <option>Chubut</option>
             <option>Córdoba</option>
+            <option>Corrientes</option>
+            <option>Entre Ríos</option>
+            <option>Formosa</option>
+            <option>Jujuy</option>
+            <option>La Pampa</option>
+            <option>La Rioja</option>
+            <option>Mendoza</option>
+            <option>Misiones</option>
+            <option>Neuquén</option>
+            <option>Río Negro</option>
+            <option>Salta</option>
+            <option>San Juan</option>
+            <option>San Luis</option>
+            <option>Santa Cruz</option>
             <option>Santa Fe</option>
+            <option>Santiago del Estero</option>
+            <option>Tierra del Fuego</option>
+            <option>Tucumán</option>
           </select>
-          <input
-            name="user_telefono"
-            placeholder="Número de teléfono *"
-            className="w-full border-b border-blue-900 bg-transparent placeholder-blue-900 focus:outline-none"
-            required
-          />
+
           <select
             name="user_cantidad"
             className="w-full border-b border-blue-900 bg-transparent text-blue-900 focus:outline-none"
             required
           >
             <option value="">Cantidad de mercadería mensual *</option>
-            <option>0 - 50 kg</option>
-            <option>50 - 100 kg</option>
-            <option>100+ kg</option>
+            <option>0 - 50 .</option>
+            <option>50 - 100 .</option>
+            <option>100 + .</option>
           </select>
           <textarea
             name="message"
