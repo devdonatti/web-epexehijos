@@ -98,9 +98,9 @@ const Contacto = () => {
             required
           >
             <option value="">Cantidad de mercadería mensual *</option>
-            <option>0 - 50 .</option>
-            <option>50 - 100 .</option>
-            <option>100 + .</option>
+            <option>0 - 50 Un.</option>
+            <option>50 - 100 Un.</option>
+            <option>100 + Un.</option>
           </select>
           <textarea
             name="message"
